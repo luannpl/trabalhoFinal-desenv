@@ -1,0 +1,22 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.div-main{
+    width: 20vw                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+    background-color: #5dbe25;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    
+}  
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}

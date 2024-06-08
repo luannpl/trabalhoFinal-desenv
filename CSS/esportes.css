@@ -1,0 +1,73 @@
+/* esports.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #28a10a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sport-category {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sport-button {
+    background-color: #28a10a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 180px;
+}
+
+.sport-button:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.user-info,
+.balance {
+    color: #343a40;
+    font-size: 16px;
+}
+
+img{
+    width: 15px;
+}
+
+.nav-button{
+    background-color: #28a10a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 180px;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #fff;
+}
+img{
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+}
+.div-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: #5dbe25;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    display: flex;
+    margin-bottom: 5px;
+    width: 10vw;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcf7f7;
+    color: #000000;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(90, 75, 75);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(63, 64, 65);
+}
+
+a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(77, 78, 80);
+}
+
+a {
+    color: #0f0;
+    text-decoration: none;
+}
